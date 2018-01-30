@@ -26,7 +26,7 @@ String Password="";
 	public void setup() throws Exception{
 		
 		Properties prop= new Properties();
-		FileInputStream fis= new FileInputStream("C:\\Users\\Maddy\\Documents\\naukri.com\\datadriven.properties");
+		FileInputStream fis= new FileInputStream("/Users/maddy/eclipse-workspace/Hybrid-Framework-Naukri.com/datadriven.properties");
 		prop.load(fis);
 		String Driver=prop.getProperty("Browser");
 		String Driver_Path=prop.getProperty("Driver");

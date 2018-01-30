@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Browser Opened]]>
@@ -11,12 +11,12 @@
       <![CDATA[Application started]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="48290" started-at="2017-05-13T12:16:37Z" finished-at="2017-05-13T12:17:26Z">
+  <suite started-at="2018-01-30T05:51:54Z" name="Default suite" finished-at="2018-01-30T05:53:22Z" duration-ms="88336">
     <groups>
     </groups>
-    <test name="Test" duration-ms="48290" started-at="2017-05-13T12:16:37Z" finished-at="2017-05-13T12:17:26Z">
+    <test started-at="2018-01-30T05:51:54Z" name="Default test" finished-at="2018-01-30T05:53:22Z" duration-ms="88336">
       <class name="com.naukri.test.naukri_test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="setup" is-config="true" duration-ms="14583" started-at="2017-05-13T17:46:37Z" finished-at="2017-05-13T17:46:52Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.test.naukri_test@6a84a97d]" started-at="2018-01-29T23:51:54Z" name="setup" finished-at="2018-01-29T23:52:01Z" duration-ms="7642" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Opened]]>
@@ -29,23 +29,23 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginFlow()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="loginFlow" duration-ms="11827" started-at="2017-05-13T17:46:52Z" finished-at="2017-05-13T17:47:04Z">
+        <test-method signature="loginFlow()[pri:0, instance:com.naukri.test.naukri_test@6a84a97d]" started-at="2018-01-29T23:52:01Z" name="loginFlow" finished-at="2018-01-29T23:52:27Z" duration-ms="25845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFlow -->
-        <test-method status="PASS" signature="homepageFlow()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="homepageFlow" duration-ms="1791" started-at="2017-05-13T17:47:04Z" depends-on-methods="com.naukri.test.naukri_test.loginFlow" finished-at="2017-05-13T17:47:06Z">
+        <test-method signature="homepageFlow()[pri:0, instance:com.naukri.test.naukri_test@6a84a97d]" started-at="2018-01-29T23:52:27Z" name="homepageFlow" finished-at="2018-01-29T23:53:17Z" depends-on-methods="com.naukri.test.naukri_test.loginFlow" duration-ms="50377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepageFlow -->
-        <test-method status="PASS" signature="updateFlow()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="updateFlow" duration-ms="17871" started-at="2017-05-13T17:47:06Z" depends-on-methods="com.naukri.test.naukri_test.homepageFlow" finished-at="2017-05-13T17:47:24Z">
+        <test-method signature="updateFlow()[pri:0, instance:com.naukri.test.naukri_test@6a84a97d]" started-at="2018-01-29T23:53:17Z" name="updateFlow" finished-at="2018-01-29T23:53:21Z" depends-on-methods="com.naukri.test.naukri_test.homepageFlow" duration-ms="4031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateFlow -->
-        <test-method status="PASS" signature="driverQuit()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="driverQuit" is-config="true" duration-ms="2127" started-at="2017-05-13T17:47:24Z" finished-at="2017-05-13T17:47:26Z">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:com.naukri.test.naukri_test@6a84a97d]" started-at="2018-01-29T23:53:21Z" name="driverQuit" finished-at="2018-01-29T23:53:22Z" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- com.naukri.test.naukri_test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

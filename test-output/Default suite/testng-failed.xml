@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
       <class name="com.naukri.test.naukri_test">
@@ -9,6 +9,7 @@
           <include name="updateFlow"/>
           <include name="loginFlow"/>
           <include name="setup"/>
+          <include name="driverQuit"/>
         </methods>
       </class> <!-- com.naukri.test.naukri_test -->
     </classes>
