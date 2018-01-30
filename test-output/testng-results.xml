@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Application started]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48290" started-at="2017-05-13T12:16:37Z" finished-at="2017-05-13T12:17:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48290" started-at="2017-05-13T12:16:37Z" finished-at="2017-05-13T12:17:26Z">
+      <class name="com.naukri.test.naukri_test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="setup" is-config="true" duration-ms="14583" started-at="2017-05-13T17:46:37Z" finished-at="2017-05-13T17:46:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+            <line>
+              <![CDATA[Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Application started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginFlow()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="loginFlow" duration-ms="11827" started-at="2017-05-13T17:46:52Z" finished-at="2017-05-13T17:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlow -->
+        <test-method status="PASS" signature="homepageFlow()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="homepageFlow" duration-ms="1791" started-at="2017-05-13T17:47:04Z" depends-on-methods="com.naukri.test.naukri_test.loginFlow" finished-at="2017-05-13T17:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageFlow -->
+        <test-method status="PASS" signature="updateFlow()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="updateFlow" duration-ms="17871" started-at="2017-05-13T17:47:06Z" depends-on-methods="com.naukri.test.naukri_test.homepageFlow" finished-at="2017-05-13T17:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateFlow -->
+        <test-method status="PASS" signature="driverQuit()[pri:0, instance:com.naukri.test.naukri_test@1a10788]" name="driverQuit" is-config="true" duration-ms="2127" started-at="2017-05-13T17:47:24Z" finished-at="2017-05-13T17:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- com.naukri.test.naukri_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
